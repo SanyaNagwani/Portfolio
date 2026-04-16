@@ -247,3 +247,23 @@
     justify-content: center;
   }
 }
+
+/* Light Theme Adjustments */
+.light-theme .about::before {
+  background: radial-gradient(circle, rgba(13, 148, 136, 0.08) 0%, transparent 70%);
+}
+
+.light-theme .about::after {
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.08) 0%, transparent 70%);
+}
+
+.light-theme .image-placeholder {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(243, 244, 246, 0.9) 100%);
+  border: 3px solid rgba(13, 148, 136, 0.25);
+  box-shadow: 0 10px 30px rgba(13, 148, 136, 0.1), inset 0 0 20px rgba(13, 148, 136, 0.03);
+}
+
+.light-theme .profile-img {
+  border: 3px solid rgba(13, 148, 136, 0.3);
+  box-shadow: 0 10px 30px rgba(13, 148, 136, 0.15), inset 0 0 20px rgba(13, 148, 136, 0.05);
+}

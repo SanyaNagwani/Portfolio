@@ -75,3 +75,13 @@
     justify-content: center;
   }
 }
+
+/* Light Theme Adjustments */
+.light-theme .footer {
+  background: linear-gradient(135deg, rgba(249, 250, 251, 0.95) 0%, rgba(243, 244, 246, 0.95) 100%);
+  border-top: 2px solid rgba(13, 148, 136, 0.2);
+}
+
+.light-theme .footer-links a::after {
+  background: linear-gradient(90deg, var(--accent), var(--accent-purple));
+}

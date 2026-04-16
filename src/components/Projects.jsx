@@ -43,7 +43,6 @@ export default function Projects() {
                 ))}
               </div>
               <div className="project-links">
-                <a href={project.link} className="link">View Project</a>
                 <a href={project.github} className="link">GitHub</a>
               </div>
             </div>
